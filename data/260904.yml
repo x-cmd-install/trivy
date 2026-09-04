@@ -7,7 +7,7 @@ about:
   head: 
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:19:07Z
+  collectedAt: 2026-09-04T21:19:15Z
 timeline:
   created: 
   lastCommit: 
@@ -80,6 +80,139 @@ graphqlErrors:
   - Although you appear to have the correct authorization credentials, the `aquasecurity` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.
   - Although you appear to have the correct authorization credentials, the `aquasecurity` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.
 ---
+path: /home/runner/.x-repo/github.com/aquasecurity/trivy
+collectedAt: 2026-09-04T21:19:38Z
+loc:
+  Go:
+    code: 237366
+    comments: 10272
+    blanks: 26135
+    files: 1624
+  Json:
+    code: 176495
+    comments: 0
+    blanks: 5
+    files: 257
+  Svg:
+    code: 9742
+    comments: 6
+    blanks: 0
+    files: 6
+  Yaml:
+    code: 8582
+    comments: 160
+    blanks: 607
+    files: 236
+  Xml:
+    code: 2343
+    comments: 2
+    blanks: 364
+    files: 96
+  Pan:
+    code: 700
+    comments: 0
+    blanks: 13
+    files: 7
+  Python:
+    code: 691
+    comments: 9
+    blanks: 85
+    files: 2
+  OpenPolicyAgent:
+    code: 673
+    comments: 398
+    blanks: 130
+    files: 45
+  Toml:
+    code: 644
+    comments: 17
+    blanks: 189
+    files: 39
+  Sh:
+    code: 463
+    comments: 29
+    blanks: 61
+    files: 6
+  Css:
+    code: 384
+    comments: 22
+    blanks: 3
+    files: 1
+  Protobuf:
+    code: 371
+    comments: 11
+    blanks: 60
+    files: 4
+  Hcl:
+    code: 328
+    comments: 1
+    blanks: 61
+    files: 45
+  Happy:
+    code: 63
+    comments: 0
+    blanks: 10
+    files: 1
+  MsBuild:
+    code: 53
+    comments: 0
+    blanks: 10
+    files: 7
+  Dockerfile:
+    code: 29
+    comments: 1
+    blanks: 7
+    files: 10
+  Html:
+    code: 24
+    comments: 0
+    blanks: 6
+    files: 1
+  C:
+    code: 18
+    comments: 34
+    blanks: 6
+    files: 3
+  Php:
+    code: 11
+    comments: 74
+    blanks: 15
+    files: 2
+  Autoconf:
+    code: 3
+    comments: 0
+    blanks: 0
+    files: 1
+  Bash:
+    code: 2
+    comments: 2
+    blanks: 2
+    files: 2
+  Ini:
+    code: 2
+    comments: 1
+    blanks: 0
+    files: 1
+  JavaScript:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 14163
+    blanks: 4870
+    files: 209
+  Text:
+    code: 0
+    comments: 650
+    blanks: 77
+    files: 74
+total:
+  code: 442968
+  comments: 26108
+  blanks: 33008
+  files: 2680
 ---
 date: "2026-03-16"
 repo:
