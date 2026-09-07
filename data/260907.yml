@@ -5,7 +5,7 @@ about:
   head: 
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-07T06:05:00Z
+  collectedAt: 2026-09-07T18:25:58Z
 timeline:
   created: 
   lastCommit: 
@@ -22,49 +22,49 @@ recent:
   last30d:
     since: 2026-08-08
     release: 0
-    mergedPR: 26
+    mergedPR: 30
     openPR: 41
-    closedIssue: 14
+    closedIssue: 15
     openIssue: 6
     commit: 0
   last60d:
     since: 2026-07-09
     release: 0
-    mergedPR: 57
+    mergedPR: 61
     openPR: 63
-    closedIssue: 24
+    closedIssue: 25
     openIssue: 8
     commit: 0
   last90d:
     since: 2026-06-09
     release: 0
-    mergedPR: 95
+    mergedPR: 99
     openPR: 74
-    closedIssue: 36
+    closedIssue: 37
     openIssue: 9
     commit: 0
   last180d:
     since: 2026-03-11
     release: 0
-    mergedPR: 209
+    mergedPR: 213
     openPR: 89
-    closedIssue: 75
+    closedIssue: 76
     openIssue: 17
     commit: 0
   last360d:
     since: 2025-09-12
     release: 0
-    mergedPR: 501
+    mergedPR: 505
     openPR: 94
-    closedIssue: 176
+    closedIssue: 177
     openIssue: 29
     commit: 0
   last720d:
     since: 2024-09-17
     release: 0
-    mergedPR: 1151
+    mergedPR: 1155
     openPR: 94
-    closedIssue: 449
+    closedIssue: 450
     openIssue: 59
     commit: 0
 total:
@@ -79,12 +79,12 @@ graphqlErrors:
   - Although you appear to have the correct authorization credentials, the `aquasecurity` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.
 ---
 path: /home/runner/.x-repo/github.com/aquasecurity/trivy
-collectedAt: 2026-09-07T06:05:40Z
+collectedAt: 2026-09-07T18:26:44Z
 loc:
   Go:
-    code: 237366
+    code: 237469
     comments: 10272
-    blanks: 26135
+    blanks: 26142
     files: 1624
   Json:
     code: 176495
@@ -137,7 +137,7 @@ loc:
     blanks: 3
     files: 1
   Protobuf:
-    code: 371
+    code: 374
     comments: 11
     blanks: 60
     files: 4
@@ -198,8 +198,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 14163
-    blanks: 4870
+    comments: 14168
+    blanks: 4874
     files: 209
   Text:
     code: 0
@@ -207,9 +207,9 @@ loc:
     blanks: 77
     files: 74
 total:
-  code: 442968
-  comments: 26108
-  blanks: 33008
+  code: 443074
+  comments: 26113
+  blanks: 33019
   files: 2680
 ---
 date: "2026-03-16"
@@ -356,7 +356,7 @@ checks:
       - 'Warn: 4 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:05:45+00:00
+  collectedAt: 2026-09-07T18:26:47+00:00
   platform:
     darwin/arm64:
       name:  trivy_0.74.0_macOS-ARM64.tar.gz
