@@ -2,13 +2,35 @@
 
 [English version](./README.md)
 
-![trivy](https://repo.x-cmd.io/trivy.svg)
+![trivy](https://repo.x-cmd.io/trivy.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install trivy
 ```
+
+## 代码规模
+
+合计: **439,107** 行代码（覆盖前 5 种语言、共 **2219** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 237,482 | 10,278 | 26,136 | 1624 |
+| Json | 176,495 | 0 | 5 | 257 |
+| Svg | 9,742 | 6 | 0 | 6 |
+| Yaml | 8,582 | 160 | 607 | 236 |
+| Xml | 2,343 | 2 | 364 | 96 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **6.4 / 10**
+
+评分最低的几项:
+
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## 源代码
 
@@ -27,31 +49,26 @@ x install trivy
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 33 | 43 | 14 | 8 | 0 |
-| 90d | 2026-06-12 | 0 | 101 | 80 | 36 | 10 | 0 |
-| 360d | 2025-09-15 | 0 | 509 | 100 | 177 | 31 | 0 |
+| 30d | 2026-08-11 | 0 | 36 | 43 | 16 | 7 | 0 |
+| last60d | 2026-07-12 | 0 | 68 | 68 | 26 | 9 | 0 |
+| 90d | 2026-06-12 | 0 | 104 | 80 | 38 | 9 | 0 |
+| last180d | 2026-03-14 | 0 | 220 | 94 | 77 | 17 | 0 |
+| 360d | 2025-09-15 | 0 | 512 | 100 | 179 | 30 | 0 |
+| last720d | 2024-09-20 | 0 | 1156 | 100 | 444 | 60 | 0 |
 
-## 代码规模
+## 发行版状态
 
-合计: **438,985** 行代码（覆盖前 5 种语言、共 **2219** 个文件）。
+在 [repology.org](https://repology.org/project/trivy) 上共有 **147** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**31** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 237,360 | 10,273 | 26,135 | 1624 |
-| Json | 176,495 | 0 | 5 | 257 |
-| Svg | 9,742 | 6 | 0 | 6 |
-| Yaml | 8,582 | 160 | 607 | 236 |
-| Xml | 2,343 | 2 | 364 | 96 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **6.4 / 10**
-
-评分最低的几项:
-
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Fuzzing** (0/10) — project is not fuzzed
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `0.73.0` | ⚠️ outdated |
+| Homebrew | `0.74.0` | ✅ latest |
+| Fedora rawhide | `0.69.3` | ⚠️ outdated |
+| Nix unstable | `0.74.0` | ✅ latest |
+| Void | `0.70.0` | ⚠️ outdated |
+| Alpine edge | `0.74.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.74.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -62,4 +79,4 @@ trivy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T06:22:12Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:31:30Z._
