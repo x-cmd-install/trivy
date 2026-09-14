@@ -49,26 +49,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 34 | 39 | 13 | 7 | 0 |
-| last60d | 2026-07-15 | 0 | 72 | 65 | 25 | 8 | 0 |
-| 90d | 2026-06-15 | 0 | 106 | 79 | 39 | 9 | 0 |
-| last180d | 2026-03-17 | 0 | 225 | 91 | 78 | 16 | 0 |
-| 360d | 2025-09-18 | 0 | 515 | 97 | 178 | 30 | 0 |
-| last720d | 2024-09-23 | 0 | 1158 | 97 | 444 | 60 | 0 |
-
-## Distribution status
-
-Reported by **147** distros on [repology.org](https://repology.org/project/trivy). **10** are ✅ on the latest upstream release, **31** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `0.73.0` | ⚠️ outdated |
-| Homebrew | `0.74.0` | ✅ latest |
-| Fedora rawhide | `0.69.3` | ⚠️ outdated |
-| Nix unstable | `0.74.0` | ✅ latest |
-| Void | `0.70.0` | ⚠️ outdated |
-| Alpine edge | `0.74.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.74.0` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 34 | 41 | 13 | 7 | 0 |
+| last60d | 2026-07-16 | 0 | 71 | 67 | 25 | 8 | 0 |
+| 90d | 2026-06-16 | 0 | 105 | 81 | 38 | 9 | 0 |
+| last180d | 2026-03-18 | 0 | 224 | 93 | 77 | 15 | 0 |
+| 360d | 2025-09-19 | 0 | 512 | 99 | 177 | 30 | 0 |
+| last720d | 2024-09-24 | 0 | 1156 | 99 | 443 | 60 | 0 |
 
 ## Improve this data
 
@@ -79,4 +65,4 @@ Install metadata for trivy lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:19:21Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:31:29Z._
