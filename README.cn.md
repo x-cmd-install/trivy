@@ -2,7 +2,7 @@
 
 [English version](./README.md)
 
-![trivy](https://repo.x-cmd.io/trivy.svg?lang=zh)
+[![x-cmd/install — trivy Code Quality Monitoring Repo Card](https://repo.x-cmd.io/trivy.svg?lang=zh)](https://x-cmd.com/install/trivy)
 
 ## 安装
 
@@ -49,12 +49,12 @@ x install trivy
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 35 | 35 | 12 | 7 | 0 |
-| last60d | 2026-07-20 | 0 | 77 | 68 | 25 | 10 | 0 |
-| 90d | 2026-06-20 | 0 | 100 | 81 | 37 | 11 | 0 |
-| last180d | 2026-03-22 | 0 | 227 | 94 | 77 | 16 | 0 |
-| 360d | 2025-09-23 | 0 | 512 | 101 | 177 | 32 | 0 |
-| last720d | 2024-09-28 | 0 | 1153 | 101 | 441 | 62 | 0 |
+| 30d | 2026-08-21 | 0 | 32 | 30 | 13 | 7 | 0 |
+| last60d | 2026-07-22 | 0 | 74 | 62 | 24 | 10 | 0 |
+| 90d | 2026-06-22 | 0 | 101 | 74 | 38 | 11 | 0 |
+| last180d | 2026-03-24 | 0 | 228 | 90 | 78 | 16 | 0 |
+| 360d | 2025-09-25 | 0 | 511 | 97 | 175 | 32 | 0 |
+| last720d | 2024-09-30 | 0 | 1151 | 97 | 442 | 62 | 0 |
 
 ## 改进这些数据
 
@@ -65,4 +65,4 @@ trivy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T06:33:33Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T06:17:29Z._

@@ -2,7 +2,7 @@
 
 [中文版本](./README.cn.md)
 
-![trivy](https://repo.x-cmd.io/trivy.svg)
+[![x-cmd/install — trivy Code Quality Monitoring Repo Card](https://repo.x-cmd.io/trivy.svg)](https://x-cmd.com/install/trivy)
 
 ## Install
 
@@ -49,12 +49,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 35 | 35 | 12 | 7 | 0 |
-| last60d | 2026-07-20 | 0 | 77 | 68 | 25 | 10 | 0 |
-| 90d | 2026-06-20 | 0 | 100 | 81 | 37 | 11 | 0 |
-| last180d | 2026-03-22 | 0 | 227 | 94 | 77 | 16 | 0 |
-| 360d | 2025-09-23 | 0 | 512 | 101 | 177 | 32 | 0 |
-| last720d | 2024-09-28 | 0 | 1153 | 101 | 441 | 62 | 0 |
+| 30d | 2026-08-21 | 0 | 32 | 30 | 13 | 7 | 0 |
+| last60d | 2026-07-22 | 0 | 74 | 62 | 24 | 10 | 0 |
+| 90d | 2026-06-22 | 0 | 101 | 74 | 38 | 11 | 0 |
+| last180d | 2026-03-24 | 0 | 228 | 90 | 78 | 16 | 0 |
+| 360d | 2025-09-25 | 0 | 511 | 97 | 175 | 32 | 0 |
+| last720d | 2024-09-30 | 0 | 1151 | 97 | 442 | 62 | 0 |
 
 ## Improve this data
 
@@ -65,4 +65,4 @@ Install metadata for trivy lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:33:32Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:17:28Z._
