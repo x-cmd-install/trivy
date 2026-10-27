@@ -12,11 +12,11 @@ x install trivy
 
 ## Code insight
 
-Total: **450,784** lines of code across **2247** files in the top 5 languages.
+Total: **450,890** lines of code across **2247** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 248,688 | 11,327 | 26,893 | 1648 |
+| Go | 248,794 | 11,329 | 26,895 | 1648 |
 | Json | 176,557 | 0 | 5 | 258 |
 | Svg | 9,742 | 6 | 0 | 6 |
 | Yaml | 8,907 | 196 | 609 | 239 |
@@ -49,12 +49,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 42 | 45 | 3 | 14 | 0 |
-| last60d | 2026-08-27 | 0 | 92 | 64 | 19 | 19 | 0 |
-| 90d | 2026-07-28 | 0 | 146 | 79 | 27 | 22 | 0 |
-| last180d | 2026-04-29 | 0 | 276 | 92 | 77 | 25 | 0 |
-| 360d | 2025-10-31 | 0 | 509 | 99 | 161 | 40 | 0 |
-| last720d | 2024-11-05 | 0 | 1164 | 99 | 414 | 70 | 0 |
+| 30d | 2026-09-27 | 0 | 44 | 43 | 3 | 14 | 0 |
+| last60d | 2026-08-28 | 0 | 92 | 63 | 17 | 19 | 0 |
+| 90d | 2026-07-29 | 0 | 146 | 78 | 27 | 22 | 0 |
+| last180d | 2026-04-30 | 0 | 276 | 91 | 77 | 25 | 0 |
+| 360d | 2025-11-01 | 0 | 510 | 98 | 161 | 40 | 0 |
+| last720d | 2024-11-06 | 0 | 1161 | 98 | 414 | 70 | 0 |
 
 ## Distribution status
 
@@ -68,7 +68,7 @@ Reported by **146** distros on [repology.org](https://repology.org/project/trivy
 | Nix unstable | `0.76.1` | ✅ latest |
 | Void | `0.75.0` | ⚠️ outdated |
 | Alpine edge | `0.76.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.75.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.76.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -79,4 +79,4 @@ Install metadata for trivy lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:51:41Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:18:01Z._
