@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-10-29T07:03:46Z
+  collectedAt: 2026-10-30T07:03:27Z
 timeline:
   created: 
   lastCommit: 
@@ -24,52 +24,52 @@ popularity:
   issue: 0
 recent:
   last30d:
-    since: 2026-09-29
+    since: 2026-09-30
     release: 0
-    mergedPR: 46
-    openPR: 40
-    closedIssue: 3
-    openIssue: 12
+    mergedPR: 47
+    openPR: 47
+    closedIssue: 4
+    openIssue: 15
     commit: 0
   last60d:
-    since: 2026-08-30
+    since: 2026-08-31
     release: 0
-    mergedPR: 98
-    openPR: 62
+    mergedPR: 95
+    openPR: 67
     closedIssue: 18
-    openIssue: 18
-    commit: 0
-  last90d:
-    since: 2026-07-31
-    release: 0
-    mergedPR: 149
-    openPR: 75
-    closedIssue: 28
     openIssue: 21
     commit: 0
-  last180d:
-    since: 2026-05-02
+  last90d:
+    since: 2026-08-01
     release: 0
-    mergedPR: 279
-    openPR: 89
-    closedIssue: 75
-    openIssue: 22
+    mergedPR: 149
+    openPR: 82
+    closedIssue: 29
+    openIssue: 24
+    commit: 0
+  last180d:
+    since: 2026-05-03
+    release: 0
+    mergedPR: 280
+    openPR: 96
+    closedIssue: 76
+    openIssue: 25
     commit: 0
   last360d:
-    since: 2025-11-03
+    since: 2025-11-04
     release: 0
-    mergedPR: 516
-    openPR: 96
+    mergedPR: 517
+    openPR: 103
     closedIssue: 162
-    openIssue: 39
+    openIssue: 41
     commit: 0
   last720d:
-    since: 2024-11-08
+    since: 2024-11-09
     release: 0
     mergedPR: 1165
-    openPR: 96
-    closedIssue: 414
-    openIssue: 68
+    openPR: 103
+    closedIssue: 415
+    openIssue: 71
     commit: 0
 total:
   release: 0
@@ -83,12 +83,12 @@ graphqlErrors:
   - Although you appear to have the correct authorization credentials, the `aquasecurity` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.
 ---
 path: /home/runner/.x-repo/github.com/aquasecurity/trivy
-collectedAt: 2026-10-29T07:04:54Z
+collectedAt: 2026-10-30T07:04:05Z
 loc:
   Go:
-    code: 250580
-    comments: 11434
-    blanks: 27000
+    code: 250922
+    comments: 11491
+    blanks: 27027
     files: 1653
   Json:
     code: 176605
@@ -202,8 +202,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 14453
-    blanks: 5000
+    comments: 14454
+    blanks: 5001
     files: 210
   Text:
     code: 0
@@ -211,9 +211,9 @@ loc:
     blanks: 77
     files: 75
 total:
-  code: 456784
-  comments: 27609
-  blanks: 34016
+  code: 457126
+  comments: 27667
+  blanks: 34044
   files: 2715
 ---
 date: "2026-03-16"
