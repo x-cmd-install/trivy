@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-10-30T07:03:27Z
+  collectedAt: 2026-10-31T07:01:42Z
 timeline:
   created: 
   lastCommit: 
@@ -24,52 +24,52 @@ popularity:
   issue: 0
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 0
     mergedPR: 47
     openPR: 47
-    closedIssue: 4
-    openIssue: 15
+    closedIssue: 5
+    openIssue: 16
     commit: 0
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 0
     mergedPR: 95
     openPR: 67
-    closedIssue: 18
-    openIssue: 21
+    closedIssue: 15
+    openIssue: 22
     commit: 0
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 0
-    mergedPR: 149
+    mergedPR: 151
     openPR: 82
-    closedIssue: 29
-    openIssue: 24
-    commit: 0
-  last180d:
-    since: 2026-05-03
-    release: 0
-    mergedPR: 280
-    openPR: 96
-    closedIssue: 76
+    closedIssue: 30
     openIssue: 25
     commit: 0
-  last360d:
-    since: 2025-11-04
+  last180d:
+    since: 2026-05-04
     release: 0
-    mergedPR: 517
+    mergedPR: 282
+    openPR: 96
+    closedIssue: 76
+    openIssue: 26
+    commit: 0
+  last360d:
+    since: 2025-11-05
+    release: 0
+    mergedPR: 515
     openPR: 103
-    closedIssue: 162
-    openIssue: 41
+    closedIssue: 163
+    openIssue: 42
     commit: 0
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 0
-    mergedPR: 1165
+    mergedPR: 1167
     openPR: 103
-    closedIssue: 415
-    openIssue: 71
+    closedIssue: 416
+    openIssue: 72
     commit: 0
 total:
   release: 0
@@ -83,12 +83,12 @@ graphqlErrors:
   - Although you appear to have the correct authorization credentials, the `aquasecurity` organization has an IP allow list enabled, and your IP address is not permitted to access this resource.
 ---
 path: /home/runner/.x-repo/github.com/aquasecurity/trivy
-collectedAt: 2026-10-30T07:04:05Z
+collectedAt: 2026-10-31T07:02:43Z
 loc:
   Go:
-    code: 250922
-    comments: 11491
-    blanks: 27027
+    code: 251071
+    comments: 11497
+    blanks: 27036
     files: 1653
   Json:
     code: 176605
@@ -202,7 +202,7 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 14454
+    comments: 14456
     blanks: 5001
     files: 210
   Text:
@@ -211,9 +211,9 @@ loc:
     blanks: 77
     files: 75
 total:
-  code: 457126
-  comments: 27667
-  blanks: 34044
+  code: 457275
+  comments: 27675
+  blanks: 34053
   files: 2715
 ---
 date: "2026-03-16"
