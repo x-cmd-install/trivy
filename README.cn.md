@@ -49,26 +49,26 @@ x install trivy
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 50 | 53 | 8 | 16 | 0 |
-| last60d | 2026-09-06 | 0 | 95 | 75 | 16 | 23 | 0 |
-| 90d | 2026-08-07 | 0 | 142 | 89 | 32 | 27 | 0 |
-| last180d | 2026-05-09 | 0 | 281 | 102 | 78 | 28 | 0 |
-| 360d | 2025-11-10 | 0 | 510 | 109 | 164 | 44 | 0 |
-| last720d | 2024-11-15 | 0 | 1162 | 109 | 416 | 74 | 0 |
+| 30d | 2026-10-07 | 0 | 54 | 56 | 8 | 18 | 0 |
+| last60d | 2026-09-07 | 0 | 97 | 78 | 16 | 24 | 0 |
+| 90d | 2026-08-08 | 0 | 148 | 91 | 32 | 29 | 0 |
+| last180d | 2026-05-10 | 0 | 287 | 105 | 78 | 30 | 0 |
+| 360d | 2025-11-11 | 0 | 512 | 112 | 164 | 46 | 0 |
+| last720d | 2024-11-16 | 0 | 1168 | 112 | 415 | 76 | 0 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/trivy) 上共有 **146** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**27** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/trivy) 上共有 **146** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**34** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Arch | `0.76.1` | ✅ latest |
-| Homebrew | `0.76.1` | ✅ latest |
+| Arch | `0.76.2` | ✅ latest |
+| Homebrew | `0.76.1` | ⚠️ outdated |
 | Fedora rawhide | `0.69.3` | ⚠️ outdated |
-| Nix unstable | `0.76.1` | ✅ latest |
+| Nix unstable | `0.76.1` | ⚠️ outdated |
 | Void | `0.75.0` | ⚠️ outdated |
-| Alpine edge | `0.76.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.76.1` | ✅ latest |
+| Alpine edge | `0.76.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.76.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -79,4 +79,4 @@ trivy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261105.yml` · 2026-11-05T08:18:57Z._
+_数据快照: `data/card/261106.yml` · 2026-11-06T08:08:08Z._
