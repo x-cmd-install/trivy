@@ -12,14 +12,14 @@ x install trivy
 
 ## Code insight
 
-Total: **453,871** lines of code across **2255** files in the top 5 languages.
+Total: **454,133** lines of code across **2255** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 251,722 | 11,560 | 27,100 | 1656 |
+| Go | 251,957 | 11,567 | 27,104 | 1656 |
 | Json | 176,605 | 0 | 5 | 258 |
 | Svg | 9,742 | 6 | 0 | 6 |
-| Yaml | 8,907 | 196 | 609 | 239 |
+| Yaml | 8,934 | 196 | 609 | 239 |
 | Xml | 2,343 | 2 | 364 | 96 |
 
 ## OpenSSF Scorecard
@@ -49,21 +49,21 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 54 | 56 | 8 | 18 | 0 |
-| last60d | 2026-09-07 | 0 | 97 | 78 | 16 | 24 | 0 |
-| 90d | 2026-08-08 | 0 | 148 | 91 | 32 | 29 | 0 |
-| last180d | 2026-05-10 | 0 | 287 | 105 | 78 | 30 | 0 |
-| 360d | 2025-11-11 | 0 | 512 | 112 | 164 | 46 | 0 |
-| last720d | 2024-11-16 | 0 | 1168 | 112 | 415 | 76 | 0 |
+| 30d | 2026-10-08 | 0 | 52 | 59 | 8 | 21 | 0 |
+| last60d | 2026-09-08 | 0 | 92 | 83 | 16 | 27 | 0 |
+| 90d | 2026-08-09 | 0 | 148 | 96 | 32 | 32 | 0 |
+| last180d | 2026-05-11 | 0 | 287 | 109 | 78 | 33 | 0 |
+| 360d | 2025-11-12 | 0 | 510 | 116 | 162 | 49 | 0 |
+| last720d | 2024-11-17 | 0 | 1169 | 116 | 415 | 79 | 0 |
 
 ## Distribution status
 
-Reported by **146** distros on [repology.org](https://repology.org/project/trivy). **6** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
+Reported by **146** distros on [repology.org](https://repology.org/project/trivy). **8** are ✅ on the latest upstream release, **32** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `0.76.2` | ✅ latest |
-| Homebrew | `0.76.1` | ⚠️ outdated |
+| Homebrew | `0.76.2` | ✅ latest |
 | Fedora rawhide | `0.69.3` | ⚠️ outdated |
 | Nix unstable | `0.76.1` | ⚠️ outdated |
 | Void | `0.75.0` | ⚠️ outdated |
@@ -79,4 +79,4 @@ Install metadata for trivy lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T08:08:06Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:11:58Z._
