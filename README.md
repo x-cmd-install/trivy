@@ -49,12 +49,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 48 | 66 | 13 | 21 | 0 |
-| last60d | 2026-09-13 | 0 | 90 | 91 | 19 | 29 | 0 |
-| 90d | 2026-08-14 | 0 | 144 | 104 | 34 | 34 | 0 |
-| last180d | 2026-05-16 | 0 | 292 | 119 | 84 | 35 | 0 |
-| 360d | 2025-11-17 | 0 | 514 | 126 | 167 | 51 | 0 |
-| last720d | 2024-11-22 | 0 | 1156 | 126 | 416 | 80 | 0 |
+| 30d | 2026-10-14 | 0 | 44 | 67 | 13 | 22 | 0 |
+| last60d | 2026-09-14 | 0 | 89 | 93 | 18 | 32 | 0 |
+| 90d | 2026-08-15 | 0 | 144 | 106 | 34 | 37 | 0 |
+| last180d | 2026-05-17 | 0 | 292 | 121 | 84 | 38 | 0 |
+| 360d | 2025-11-18 | 0 | 512 | 128 | 165 | 54 | 0 |
+| last720d | 2024-11-23 | 0 | 1156 | 128 | 416 | 83 | 0 |
 
 ## Distribution status
 
@@ -79,4 +79,4 @@ Install metadata for trivy lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T09:04:46Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T08:21:48Z._
