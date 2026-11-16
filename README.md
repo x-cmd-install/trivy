@@ -12,11 +12,11 @@ x install trivy
 
 ## Code insight
 
-Total: **456,644** lines of code across **2257** files in the top 5 languages.
+Total: **456,708** lines of code across **2257** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 254,405 | 11,675 | 27,167 | 1656 |
+| Go | 254,469 | 11,674 | 27,170 | 1656 |
 | Json | 176,640 | 0 | 5 | 259 |
 | Svg | 9,742 | 6 | 0 | 6 |
 | Yaml | 8,962 | 196 | 609 | 240 |
@@ -49,16 +49,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 41 | 68 | 16 | 18 | 0 |
-| last60d | 2026-09-16 | 0 | 92 | 93 | 22 | 27 | 0 |
-| 90d | 2026-08-17 | 0 | 147 | 103 | 41 | 30 | 0 |
-| last180d | 2026-05-19 | 0 | 294 | 119 | 90 | 31 | 0 |
-| 360d | 2025-11-20 | 0 | 516 | 127 | 169 | 46 | 0 |
-| last720d | 2024-11-25 | 0 | 1160 | 127 | 423 | 76 | 0 |
+| 30d | 2026-10-17 | 0 | 42 | 68 | 16 | 18 | 0 |
+| last60d | 2026-09-17 | 0 | 90 | 93 | 22 | 26 | 0 |
+| 90d | 2026-08-18 | 0 | 147 | 104 | 39 | 29 | 0 |
+| last180d | 2026-05-20 | 0 | 293 | 120 | 85 | 31 | 0 |
+| 360d | 2025-11-21 | 0 | 516 | 128 | 169 | 46 | 0 |
+| last720d | 2024-11-26 | 0 | 1157 | 128 | 423 | 76 | 0 |
 
 ## Distribution status
 
-Reported by **147** distros on [repology.org](https://repology.org/project/trivy). **12** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
+Reported by **147** distros on [repology.org](https://repology.org/project/trivy). **13** are ✅ on the latest upstream release, **28** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -79,4 +79,4 @@ Install metadata for trivy lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T08:07:51Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:41:53Z._
