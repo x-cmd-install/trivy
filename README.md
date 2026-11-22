@@ -49,19 +49,20 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 41 | 69 | 19 | 18 | 0 |
-| last60d | 2026-09-22 | 0 | 100 | 100 | 25 | 29 | 0 |
-| 90d | 2026-08-23 | 0 | 154 | 111 | 43 | 32 | 0 |
-| last180d | 2026-05-25 | 0 | 297 | 127 | 87 | 34 | 0 |
-| 360d | 2025-11-26 | 0 | 529 | 135 | 171 | 47 | 0 |
-| last720d | 2024-12-01 | 0 | 1172 | 135 | 423 | 78 | 0 |
+| 30d | 2026-10-23 | 0 | 40 | 73 | 19 | 18 | 0 |
+| last60d | 2026-09-23 | 0 | 100 | 103 | 25 | 29 | 0 |
+| 90d | 2026-08-24 | 0 | 151 | 116 | 43 | 32 | 0 |
+| last180d | 2026-05-26 | 0 | 295 | 132 | 85 | 34 | 0 |
+| 360d | 2025-11-27 | 0 | 529 | 140 | 171 | 47 | 0 |
+| last720d | 2024-12-02 | 0 | 1169 | 140 | 423 | 78 | 0 |
 
 ## Distribution status
 
-Reported by **148** distros on [repology.org](https://repology.org/project/trivy). **15** are ✅ on the latest upstream release, **27** are ⚠️ on an older version.
+Reported by **150** distros on [repology.org](https://repology.org/project/trivy). **15** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
+| Debian unstable | `0.76.1` | ⚠️ outdated |
 | Arch | `0.76.2` | ✅ latest |
 | Homebrew | `0.76.2` | ✅ latest |
 | Fedora rawhide | `0.69.3` | ⚠️ outdated |
@@ -79,4 +80,4 @@ Install metadata for trivy lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T09:07:36Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:43:59Z._
