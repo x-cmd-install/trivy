@@ -1,17 +1,57 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: trivy
-  binnames:
-    - trivy
+- repo: wakemeops
+  subrepo: secops
+  binname: trivy
   visiblename: trivy
-  version: 0.76.1
-  origversion: 0.76.1+ds-1
-  status: outdated
+  version: 0.62.0
+  origversion: 0.62.0-1~ops2deb
+  status: legacy
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - juan.mendezr@proton.me
-  categories:
-    - utils
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: trivy
+  visiblename: trivy
+  version: 0.61.1
+  origversion: 0.61.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: trivy
+  visiblename: trivy
+  version: 0.61.0
+  origversion: 0.61.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: trivy
+  visiblename: trivy
+  version: 0.60.0
+  origversion: 0.60.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: trivy
+  visiblename: trivy
+  version: 0.59.1
+  origversion: 0.59.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: trivy
+  visiblename: trivy
+  version: 0.59.0
+  origversion: 0.59.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: manjaro_unstable
   subrepo: extra
   srcname: trivy
@@ -23,33 +63,6 @@
   summary: A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI
   licenses:
     - Apache-2.0
-- repo: wakemeops
-  subrepo: secops
-  binname: trivy
-  visiblename: trivy
-  version: 0.62.1
-  origversion: 0.62.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: trivy
-  visiblename: trivy
-  version: 0.67.0
-  origversion: 0.67.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: trivy
-  visiblename: trivy
-  version: 0.66.0
-  origversion: 0.66.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: alpine_edge
   subrepo: testing
   srcname: trivy
@@ -153,6 +166,20 @@
     - juan.mendezr@proton.me
   categories:
     - utils
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: trivy
+  binnames:
+    - trivy
+  visiblename: trivy
+  version: 0.76.1
+  origversion: 0.76.1+ds-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - juan.mendezr@proton.me
+  categories:
+    - utils
 - repo: epel_9
   srcname: trivy
   binnames:
@@ -183,15 +210,6 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND BSL-1.0 AND ISC AND LicenseRef-Fedora-Public-Domain AND MIT AND MPL-2.0 AND OFL-1.1-RFN AND Unicode-DFS-2016 AND Unlicense AND (Apache-2.0 OR GPL-2.0-or-later)
   categories:
     - Unspecified
-- repo: wakemeops
-  subrepo: secops
-  binname: trivy
-  visiblename: trivy
-  version: 0.65.0
-  origversion: 0.65.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: fedora_39
   subrepo: updates
   srcname: trivy
@@ -400,15 +418,6 @@
     - sophie@kali.org
   categories:
     - golang
-- repo: wakemeops
-  subrepo: secops
-  binname: trivy
-  visiblename: trivy
-  version: 0.64.1
-  origversion: 0.64.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: liguros_stable
   srcname: dev-util/trivy
   visiblename: dev-util/trivy
@@ -447,9 +456,9 @@
   srcname: trivy
   binname: trivy
   visiblename: trivy
-  version: 0.75.0
-  origversion: 0.75.0-1
-  status: outdated
+  version: 0.76.2
+  origversion: 0.76.2-1
+  status: newest
   summary: A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI
   licenses:
     - Apache-2.0
@@ -672,24 +681,6 @@
     - palinuro@parrotsec.org
   categories:
     - golang
-- repo: wakemeops
-  subrepo: secops
-  binname: trivy
-  visiblename: trivy
-  version: 0.64.0
-  origversion: 0.64.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: trivy
-  visiblename: trivy
-  version: 0.63.0
-  origversion: 0.63.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: rosa_2019_1
   subrepo: main/release
   srcname: trivy
@@ -961,8 +952,8 @@
   subrepo: secops
   binname: trivy
   visiblename: trivy
-  version: 0.62.0
-  origversion: 0.62.0-1~ops2deb
+  version: 0.67.0
+  origversion: 0.67.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -970,8 +961,8 @@
   subrepo: secops
   binname: trivy
   visiblename: trivy
-  version: 0.61.1
-  origversion: 0.61.1-1~ops2deb
+  version: 0.66.0
+  origversion: 0.66.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -979,8 +970,8 @@
   subrepo: secops
   binname: trivy
   visiblename: trivy
-  version: 0.61.0
-  origversion: 0.61.0-1~ops2deb
+  version: 0.65.0
+  origversion: 0.65.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -988,8 +979,8 @@
   subrepo: secops
   binname: trivy
   visiblename: trivy
-  version: 0.60.0
-  origversion: 0.60.0-1~ops2deb
+  version: 0.64.1
+  origversion: 0.64.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -997,8 +988,8 @@
   subrepo: secops
   binname: trivy
   visiblename: trivy
-  version: 0.59.1
-  origversion: 0.59.1-1~ops2deb
+  version: 0.64.0
+  origversion: 0.64.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1006,8 +997,17 @@
   subrepo: secops
   binname: trivy
   visiblename: trivy
-  version: 0.59.0
-  origversion: 0.59.0-1~ops2deb
+  version: 0.63.0
+  origversion: 0.63.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: secops
+  binname: trivy
+  visiblename: trivy
+  version: 0.62.1
+  origversion: 0.62.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
