@@ -12,11 +12,11 @@ x install trivy
 
 ## Code insight
 
-Total: **458,498** lines of code across **2258** files in the top 5 languages.
+Total: **458,569** lines of code across **2258** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 256,258 | 11,760 | 27,279 | 1657 |
+| Go | 256,329 | 11,766 | 27,280 | 1657 |
 | Json | 176,640 | 0 | 5 | 259 |
 | Svg | 9,742 | 6 | 0 | 6 |
 | Yaml | 8,962 | 196 | 609 | 240 |
@@ -49,12 +49,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 51 | 69 | 22 | 19 | 0 |
-| last60d | 2026-09-26 | 0 | 109 | 98 | 29 | 29 | 0 |
-| 90d | 2026-08-27 | 0 | 161 | 114 | 47 | 32 | 0 |
-| last180d | 2026-05-29 | 0 | 299 | 130 | 88 | 34 | 0 |
-| 360d | 2025-11-30 | 0 | 543 | 137 | 175 | 47 | 0 |
-| last720d | 2024-12-05 | 0 | 1175 | 137 | 424 | 78 | 0 |
+| 30d | 2026-10-27 | 0 | 51 | 71 | 23 | 23 | 0 |
+| last60d | 2026-09-27 | 0 | 110 | 100 | 30 | 33 | 0 |
+| 90d | 2026-08-28 | 0 | 160 | 116 | 46 | 36 | 0 |
+| last180d | 2026-05-30 | 0 | 300 | 132 | 88 | 38 | 0 |
+| 360d | 2025-12-01 | 0 | 542 | 139 | 176 | 51 | 0 |
+| last720d | 2024-12-06 | 0 | 1174 | 139 | 423 | 82 | 0 |
 
 ## Improve this data
 
@@ -65,4 +65,4 @@ Install metadata for trivy lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T09:21:05Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T10:18:53Z._
